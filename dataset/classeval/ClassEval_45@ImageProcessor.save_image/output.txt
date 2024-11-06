@@ -1,0 +1,1 @@
+<PIL.PngImagePlugin.PngImageFile image mode=RGB size=100x100 at 0x735FD973B040>
