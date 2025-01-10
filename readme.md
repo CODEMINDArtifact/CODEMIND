@@ -42,9 +42,39 @@ CSR Taks:
 ```
 3. CreatFunctions
 ```
-|\addgreen|+   def AddElements(h, H, w, W):
-|\addgreen|+       return H * W - (h * W + w * H - h * w)
++   def AddElements(h, H, w, W):
++       return H * W - (h * W + w * H - h * w)
 
-|\addred|-   ans = H * W - (h * W + w * H - h * w)
-|\addgreen|+   ans = AddElements(h, H, w, W)
+-   ans = H * W - (h * W + w * H - h * w)
++   ans = AddElements(h, H, w, W)
 ```
+
+4. Third-Party API Calls (AddBase64)
+```
+import base64
+base64.b64encode(b'Random String')
+```
+
+5. TransformLoopToRecursion
+```
++    def recursive_function(i):
++        if i >= 5:
++            return None
++        if str(a[i])[-1] == '0': \
++            dic.update({i: 0})
++        else:
++            dic.update({i: \
++           int(str(a[i])[-1]) - 10})
++        recursive_function(i + 1)
+
+-   for i in range(5):
+-   if str(a[i])[-1] == "0":
+-       dic.update({i: 0})
+-   else:
+-       dic.update({i: int(str(a[i])
+- [-1]) - 10})
+
++   recursive_function(0)
+```
+
+
