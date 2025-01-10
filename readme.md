@@ -40,3 +40,11 @@ CSR Taks:
          if X > t:
              answer = X - t
 ```
+3. CreatFunctions
+```
+|\addgreen|+   def AddElements(h, H, w, W):
+|\addgreen|+       return H * W - (h * W + w * H - h * w)
+
+|\addred|-   ans = H * W - (h * W + w * H - h * w)
+|\addgreen|+   ans = AddElements(h, H, w, W)
+```
