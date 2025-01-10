@@ -21,3 +21,6 @@ CSR Taks:
 ```CACHE_DIR```: the directory to save huggingface checkpoints.
 
 ```Dataset```: Avatar, humaneval, classeval, cruxeval
+
+## Transformation Operations
+
