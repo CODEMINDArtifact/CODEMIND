@@ -60,11 +60,9 @@ base64.b64encode(b'Random String')
 +    def recursive_function(i):
 +        if i >= 5:
 +            return None
-+        if str(a[i])[-1] == '0': \
-+            dic.update({i: 0})
++        if str(a[i])[-1] == '0': dic.update({i: 0})
 +        else:
-+            dic.update({i: \
-+           int(str(a[i])[-1]) - 10})
++            dic.update({i: int(str(a[i])[-1]) - 10})
 +        recursive_function(i + 1)
 
 -   for i in range(5):
