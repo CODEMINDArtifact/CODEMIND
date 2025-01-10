@@ -32,3 +32,11 @@ CSR Taks:
         for H in Hs:
             maxH = H
 ```
+2. AddNestedIf
+```
++    checker1 = 352
++    checker2 = 647
++    if checker1 & checker2:
+         if X > t:
+             answer = X - t
+```
